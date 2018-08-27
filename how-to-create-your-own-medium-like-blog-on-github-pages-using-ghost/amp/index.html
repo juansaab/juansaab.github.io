@@ -20,20 +20,25 @@
     <meta property="og:title" content="How to create your own Medium like blog on GitHub Pages using Ghost for free">
     <meta property="og:description" content="I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.">
     <meta property="og:url" content="https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/">
-    <meta property="og:image" content="https://juansaab.github.io/content/images/2018/08/have-your-own-medium-blog.png">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c">
     <meta property="article:published_time" content="2018-08-26T18:25:43.000Z">
-    <meta property="article:modified_time" content="2018-08-26T18:25:43.000Z">
+    <meta property="article:modified_time" content="2018-08-27T06:19:35.000Z">
+    <meta property="article:tag" content="Github">
+    <meta property="article:tag" content="Ghost">
+    
     <meta property="article:publisher" content="https://www.facebook.com/juansaab">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="How to create your own Medium like blog on GitHub Pages using Ghost for free">
     <meta name="twitter:description" content="I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.">
     <meta name="twitter:url" content="https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/">
-    <meta name="twitter:image" content="https://juansaab.github.io/content/images/2018/08/have-your-own-medium-blog.png">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Juan David Saab">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Github, Ghost">
     <meta name="twitter:site" content="@juansaab">
-    <meta property="og:image:width" content="2510">
-    <meta property="og:image:height" content="1736">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="721">
     
     <script type="application/ld+json">
 {
@@ -42,7 +47,12 @@
     "publisher": {
         "@type": "Organization",
         "name": "Juan David Saab - FrontEnd &amp; Web Developer",
-        "logo": "https://casper.ghost.org/v1.0.0/images/ghost-logo.svg"
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://juansaab.github.io/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
     },
     "author": {
         "@type": "Person",
@@ -59,13 +69,14 @@
     "headline": "How to create your own Medium like blog on GitHub Pages using Ghost for free",
     "url": "https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/",
     "datePublished": "2018-08-26T18:25:43.000Z",
-    "dateModified": "2018-08-26T18:25:43.000Z",
+    "dateModified": "2018-08-27T06:19:35.000Z",
     "image": {
         "@type": "ImageObject",
-        "url": "https://juansaab.github.io/content/images/2018/08/have-your-own-medium-blog.png",
-        "width": 2510,
-        "height": 1736
+        "url": "https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1f6c0068bd6e5718cad5a7df353e3c6c",
+        "width": 1080,
+        "height": 721
     },
+    "keywords": "Github, Ghost",
     "description": "I&#x27;m an assiduous reader of Medium and always loved its simple and content focused design. That&#x27;s why I decided to start this blog, using GitHub pages and a local installation of Ghost.",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -105,7 +116,7 @@
                 </section>
             </header>
             <figure class="post-image">
-                <amp-img src="https://juansaab.github.io/content/images/2018/08/have-your-own-medium-blog.png" width="600" height="400" layout="responsive"></amp-img>
+                <amp-img src="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c" width="600" height="400" layout="responsive"></amp-img>
             </figure>
             <section class="post-content">
 
@@ -113,9 +124,20 @@
 <p>If you don't have brew installed, you can follow this quick tutorial.</p><h3 id="2-be-sure-you-have-installed-the-node-version-required-by-ghost-cli">2. Be sure you have installed the Node version required by Ghost-CLI</h3><p>I liked the idea of using Ghost-CLI. However, it only runs on the LTS version of node (currently 8.6). In order to handle multiple versions of node on your machine you can use a package named n. You can use npm to install it</p><p><code>$ npm install n -g</code></p>
 <p>Then you can install the required node version by running:</p>
 <p><code>$ n 8.6</code></p>
-<h3 id="3-install-the-ghost-cli-using-npm">3. Install the Ghost-CLI using npm</h3><p>Then you can install the ghost-cli using npm by running:</p><p><code>npm install ghost-cli -g</code></p>
-<h3 id="4-select-a-folder-for-your-ghost-installation-and-run-the-cli-installation-script">4. Select a folder for your Ghost installation and run the CLI installation script</h3><p>In order to version the code of my ghost installation, I created a GitHub repo. After cloning on my machine I entered the folder I wanted ghost to be installed and did an:</p><p><code>ghost install local</code></p>
-<p>You should see something like this:</p><figure class="kg-image-card"></figure><h3 id="5-create-your-account-and-enter-the-administration-panel-to-setup-your-blog">5. Create your account and enter the administration panel to setup your blog</h3><p>Once the installation is finished, you can open <a href="https://juansaab.github.io/ghost/">https://juansaab.github.io/ghost/</a> on your navigator to open the administration panel for your new blog. After creating your account you will have a nice blog with some introductory posts about how to use Ghost. If you want to delete them, you can just delete the author named Ghost from the <em>Team</em> panel.</p>
+<h3 id="3-install-the-ghost-cli-using-npm">3. Install the Ghost-CLI using npm</h3><p>Then you can install the ghost-cli using npm by running:</p><p><code>$ npm install ghost-cli -g</code></p>
+<h3 id="4-select-a-folder-for-your-ghost-installation-and-run-the-cli-installation-script">4. Select a folder for your Ghost installation and run the CLI installation script</h3><p>In order to version the code of my ghost installation, I created a GitHub repo. After cloning on my machine I entered the folder I wanted ghost to be installed and did an:</p><p><code>$ ghost install local</code></p>
+<p>You should see something like this:</p><figure class="kg-image-card"></figure><h3 id="5-create-your-account-and-enter-the-administration-panel-to-setup-your-blog">5. Create your account and enter the administration panel to setup your blog</h3><p>Once the installation is finished, you can open <a href="https://juansaab.github.io/ghost/">https://juansaab.github.io/ghost/</a> on your navigator to open the administration panel for your new blog. After creating your account you will have a nice blog with some introductory posts about how to use Ghost. If you want to delete them, you can just delete the author named Ghost from the <em>Team</em> panel.</p><h3 id="6-setup-buster-to-publish-your-website">6. Setup buster to publish your website</h3><p>In order to generate the static files from your Ghost installation and publish it to Github you can use a Python package called <em>buster</em>. If you run buster without having Python 3 installed you'll probably find an exception. So if after running python --version you get <em>"Python 2.7.15" </em>you can install Python 3 by running<em> brew install python.</em></p><p>Then if you're sure you have Python 3 on your machine, you can install buster using pip.</p><p><code>$ pip install git+https://github.com/manthansharma/buster/</code></p>
+<p>In order to use buster you will need wget also, so in case you don't have it installed you can installing it using Homebrew.</p><p><code>$ brew install wget</code></p>
+<h3 id="7-clone-your-github-pages-repository-into-the-static-folder">7. Clone your Github pages repository into the /static folder</h3><p>The content for your block will be exported as static files into the /static folder. Create the folder /static inside your Ghost installation and then clone your repository into that folder. Remember to create your Github pages repository first naming it as <em>your-username.github.io</em></p><p><code>$ git clone git@github.com:username/username.github.io.git static</code></p>
+<h3 id="8-generate-your-static-files-using-buster-and-push-to-github">8. Generate your static files using buster and push to GitHub</h3><p>Finally, after making changes on your blog you'll be ready to push it and publish to GitHub. Buster has two steps: generation and deploy.</p><p>To make the generation you have to run the following command:</p><p><code>$ buster generate --domain=https://juansaab.github.io --web-url=https://username.github.io</code></p>
+<p>Then you can deploy it to GitHub with the following command:</p><p><code>$ buster deploy</code></p>
+<p>If everything went well, you should be able to visit your blog at https://username.github.io</p><h2 id="how-to-keep-updating-your-blog">How to keep updating your blog?</h2><p>When you need to write new post or make changes at your blog, you will have to load the Ghost environment locally and repeat the generation and deploy steps.</p><p>At the Ghost directory run the following command to start the Ghost server.</p>
+<p><code>$ npm start</code></p>
+<p>Then, after making changes, you can generate and deploy by running</p>
+<p><code>$ buster generate --domain=https://juansaab.github.io --web-url=https://username.github.io</code></p>
+<p>And then</p>
+<p><code>$ buster deploy</code></p>
+
 
             </section>
 
