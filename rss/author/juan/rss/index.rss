@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Juan David Saab - Juan David Saab - FrontEnd & Web Developer]]></title><description><![CDATA[Thoughts, code and ideas.]]></description><link>https://juansaab.github.io/</link><image><url>https://juansaab.github.io/favicon.png</url><title>Juan David Saab - Juan David Saab - FrontEnd &amp; Web Developer</title><link>https://juansaab.github.io/</link></image><generator>Ghost 2.0</generator><lastBuildDate>Thu, 31 Jan 2019 13:17:00 GMT</lastBuildDate><atom:link href="https://juansaab.github.io/author/juan/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Optical illusions using Processing p5.js library from Processing]]></title><description><![CDATA[<p>Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe those pre-rational mechanism</p>]]></description><link>https://juansaab.github.io/optical-illusions-using-p5-js/</link><guid isPermaLink="false">5b8809e380e73b311d3d58ec</guid><category><![CDATA[Visual Computing]]></category><category><![CDATA[English]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Thu, 30 Aug 2018 15:33:15 GMT</pubDate><media:content url="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg" alt="Optical illusions using Processing p5.js library from Processing"><p>Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe those pre-rational mechanism that could affect human visual perception. Here are some of those precepts or mechanisms:</p><ul><li>light comes from above</li><li>objects are normally not view from below</li><li>faces are seen (and recognized) upright</li><li>closer objects can block the view of more distant objects</li></ul><h2 id="using-processing-to-recreate-optical-illusions-on-your-navigator">Using processing to recreate optical illusions on your navigator</h2><p>Using a <a href="https://p5js.org/">p5.js</a> a JavasScript library created by the Processing organization to allow coding an experimentation with visual elements. Using p5.js we can embed our code directly on a website with a little effort.</p><p>Here comes six very known illusions, their explanation and implementation using nothing but JavaScript and p5.js</p><h3 id="hering-illusion">Hering illusion</h3><p>A geometrical optical illusion discovered by <a href="https://en.wikipedia.org/wiki/Ewald_Hering">Ewald Hering</a> in which two parallel rects seems curved in the presence of a radial background.</p><p>Click on the image to reveal the illusion.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Juan David Saab - Juan David Saab - FrontEnd & Web Developer]]></title><description><![CDATA[Thoughts, code and ideas.]]></description><link>https://juansaab.github.io/</link><image><url>https://juansaab.github.io/favicon.png</url><title>Juan David Saab - Juan David Saab - FrontEnd &amp; Web Developer</title><link>https://juansaab.github.io/</link></image><generator>Ghost 2.0</generator><lastBuildDate>Thu, 31 Jan 2019 16:51:32 GMT</lastBuildDate><atom:link href="https://juansaab.github.io/author/juan/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Optical illusions using Processing p5.js library for JavaScript]]></title><description><![CDATA[<p>Even when visual perception could be approached from Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe that pre-rational mechanism that</p>]]></description><link>https://juansaab.github.io/optical-illusions-using-p5-js/</link><guid isPermaLink="false">5b8809e380e73b311d3d58ec</guid><category><![CDATA[Visual Computing]]></category><category><![CDATA[English]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Thu, 30 Aug 2018 15:33:15 GMT</pubDate><media:content url="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg" alt="Optical illusions using Processing p5.js library for JavaScript"><p>Even when visual perception could be approached from Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe that pre-rational mechanism that could affect human visual perception. Here are some of those precepts or mechanisms:</p><ul><li>light comes from above</li><li>objects are normally not viewed from below</li><li>faces are seen (and recognized) upright</li><li>closer objects can block the view of more distant objects</li></ul><h2 id="using-processing-to-recreate-optical-illusions-on-your-navigator">Using processing to recreate optical illusions on your navigator</h2><p>P5.js is a JavasScript library created by the Processing organization to allow coding and experimentation with visual elements. Using p5.js we can embed our code directly on a website with little effort.<br><br>Here comes six very known illusions, their explanation, and implementation using nothing but JavaScript and p5.js</p><h3 id="hering-illusion">Hering illusion</h3><p>A geometrical optical illusion discovered by <a href="https://en.wikipedia.org/wiki/Ewald_Hering">Ewald Hering</a> in which two parallel lines seems curved in the presence of a radial background.</p><p>Click on the image to reveal the illusion.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
     <script>
 		var sketch1 = function ( p ) {
             p.setup = function () {
@@ -56,7 +56,7 @@
     line(300, 0, 300, 500);
   }
 </code></pre>
-<h3 id="ebbinghaus-illusion">Ebbinghaus illusion</h3><p>Another geometric illusion, also known as Titchener circles, </p><div id="sketch-holder-2">
+<h3 id="ebbinghaus-illusion">Ebbinghaus illusion</h3><p>Now, we introduce another optical illusion known as Titchener circles. It was discovered by <a href="https://es.wikipedia.org/wiki/Hermann_Ebbinghaus">Hermann Ebbinghaus</a>.</p><p>Even when it could be interpreted as a size illusion, it has been discovered that the illusion is related more with the distance between the circles than the size, although the size of the circles affects the distance. </p><p>You can click on the image to reveal the illusion.</p><div id="sketch-holder-2">
         <!-- Our sketch will go here! -->
 </div>
 
@@ -96,7 +96,347 @@
         	}
         }
         var myp5_2 = new p5(sketch2, 'sketch-holder-2');
-    </script>]]></content:encoded></item><item><title><![CDATA[How to create your own Medium like blog on GitHub Pages using Ghost for free]]></title><description><![CDATA[I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.]]></description><link>https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/</link><guid isPermaLink="false">5b82e802b0c335085b040f8f</guid><category><![CDATA[Github]]></category><category><![CDATA[Ghost]]></category><category><![CDATA[English]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Sun, 26 Aug 2018 18:25:43 GMT</pubDate><media:content url="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c" medium="image"/><content:encoded><![CDATA[<img src="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1f6c0068bd6e5718cad5a7df353e3c6c" alt="How to create your own Medium like blog on GitHub Pages using Ghost for free"><p>Working as a web developer but also as an UX designer for more than 10 years, I felt for running a blog that could focus exclusively on Code. I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.</p><h2 id="how-to-setup-a-github-pages-website-using-ghost-as-content-editing-platform">How to setup a GitHub pages website using Ghost as content editing platform?</h2><p>From all the alternatives to do it, i decided to have a local instance of Ghost and publishing of the static files to GitHub using Buster. Even when Buster seemed quite outdated to the time I made this installation, I found this excellent step by step tutorial which I changed just a bit to use Ghost-CLI.</p><h3 id="1-install-node-js-on-your-machine">1. Install Node.js on your machine</h3><p>If you haven't installed yet you can do it many ways, from installing the package from the official website to using HomeBrew on your Mac. As I'm a MacOS user, I handle all my packages with brew.</p><p><code>brew install node</code></p>
+    </script><p>Source code in JavaScript using p5.js</p><pre><code class="language-javascript">  setup = function () {
+    var canvas = createCanvas(500, 500);
+    canvas.parent('sketch-holder');
+  }
+  draw = function () {
+    background(255);
+    scale(0.65)
+    noStroke();
+    fill(247, 119, 38);
+    ellipse(270, 400, 70, 70);
+    ellipse(670, 400, 70, 70);
+    if (!mouseIsPressed) {
+      fill(99, 120, 147);
+
+      //left rose
+      ellipse(190, 270, 150, 150);
+      ellipse(350, 270, 150, 150);
+      ellipse(190, 530, 150, 150);
+      ellipse(350, 530, 150, 150);
+      ellipse(100, 400, 150, 150);
+      ellipse(440, 400, 150, 150);
+
+      //right rose
+      ellipse(605, 400, 40, 40);
+      ellipse(735, 400, 40, 40);
+      ellipse(670, 465, 40, 40);
+      ellipse(670, 335, 40, 40);
+      ellipse(620, 450, 40, 40);
+      ellipse(720, 450, 40, 40);
+      ellipse(620, 350, 40, 40);
+      ellipse(720, 350, 40, 40);
+    }
+  }
+</code></pre>
+<h3 id="3d-movement-illusion">3D movement illusion</h3><p>In the next example there is a movement illusion. By rotating a fixed image we bring the illusion of a 3D shape emerging from the ground.</p><p>Press and keep holding <em>Right Arrow Key</em> to rotate the image.</p><div id="sketch-holder-3">
+        <!-- Our sketch will go here! -->
+</div>
+
+<script>
+		var sketch3 = function ( p ) {
+            var theta = 0.01;
+
+            p.setup = function () {
+              var canvas = p.createCanvas(300, 300);
+              p.noStroke();
+            }
+
+            p.circle = function (i) {
+              if (i == 15) return;
+              p.fill(255, 255, 0);
+              if (i % 2 == 0) { p.fill(0, 0, 255); }
+              var j = (i > 7) ? -10 : 10;
+              p.translate(j, 0);
+              p.ellipse(0, 0, 260 - (i * 20), 260 - (i * 20));
+              p.circle(i + 1);
+            }
+
+            p.draw = function () {
+              p.background(255);
+              p.translate(p.width / 2, p.height / 2);
+              p.rotate(theta);
+              if (p.keyIsDown(p.RIGHT_ARROW)) {
+                theta = theta + 0.05;
+              }
+              if (theta >= 2 * p.PI) theta = 0;
+              p.circle(0);
+            }
+        }
+        var myp5_3 = new p5(sketch3, 'sketch-holder-3');
+    </script><p>Source code in JavaScript using p5.js</p><pre><code class="language-javascript">    var theta = 0.01;
+
+    setup = function () {
+      var canvas = createCanvas(300, 300);
+      canvas.parent('sketch-holder');
+      noStroke();
+    }
+
+    circle = function (i) {
+      if (i == 15) return;
+      fill(255, 255, 0);
+      if (i % 2 == 0) { fill(0, 0, 255); }
+      var j = (i &gt; 7) ? -10 : 10;
+      translate(j, 0);
+      ellipse(0, 0, 260 - (i * 20), 260 - (i * 20));
+      circle(i + 1);
+    }
+
+    draw = function () {
+      background(0);
+      translate(width / 2, height / 2);
+      rotate(theta);
+      if (keyIsDown(RIGHT_ARROW)) {
+        theta = theta + 0.05;
+      }
+      if (theta &gt;= 2 * PI) theta = 0;
+      circle(0);
+
+    }
+</code></pre>
+<h3 id="the-square-illusion">The square illusion</h3><p>The next one is also a movement illusion. The mind creates an square which connects grey dots when they move. The square also creates interesting effect of deviation  like water on a lake.</p><p>Animation should auto play.</p><div id="sketch-holder-4">
+        <!-- Our sketch will go here! -->
+</div>
+
+<script>
+		var sketch4 = function ( p ) {
+            p.setup = function () {
+            	var canvas = p.createCanvas(500, 500);
+            }
+
+            var a = 100;
+            var b = 400;
+            var s = 0;
+
+            p.draw = function() {
+              p.background(0);
+              p.rectMode(p.CENTER);
+              p.stroke(255);
+              p.noFill();
+              p.rect(250, 250, 150, 150);
+              if (a >= 165) {
+                s = 1;
+              }
+              if (a == 100) {
+                s = 0;
+              }
+              if (s == 0) {
+                a++;
+                b--;
+              }
+              else {
+                a--;
+                b++;
+              }
+              p.noStroke();
+
+              p.fill(100);
+              p.ellipse(a, 250, 100, 100);
+              p.ellipse(250, a, 100, 100);
+              p.ellipse(b, 250, 100, 100);
+              p.ellipse(250, b, 100, 100);
+
+              p.fill(210);
+              p.ellipse(a + 190, 250, 20, 20);
+              p.ellipse(250, a + 190, 20, 20);
+              p.ellipse(b - 190, 250, 20, 20);
+              p.ellipse(250, b - 190, 20, 20);
+            }
+        }
+        var myp5_4 = new p5(sketch4, 'sketch-holder-4');
+    </script><p>Source code in JavaScript, adapted from the code originally in processing developed by <a href="https://www.openprocessing.org/sketch/168628">Greg Wittmann</a></p><pre><code class="language-javascript">    setup = function () {
+      var canvas = createCanvas(500, 500);
+      canvas.parent('sketch-holder');
+    }
+
+    var a = 100;
+    var b = 400;
+    var s = 0;
+
+    draw = function() {
+      background(0);
+      rectMode(CENTER);
+      stroke(255);
+      noFill();
+      rect(250, 250, 150, 150);
+      if (a &gt;= 165) {
+        s = 1;
+      }
+      if (a == 100) {
+        s = 0;
+      }
+      if (s == 0) {
+        a++;
+        b--;
+      }
+      else {
+        a--;
+        b++;
+      }
+      noStroke();
+      //Large squares
+      fill(100);
+      ellipse(a, 250, 100, 100);
+      ellipse(250, a, 100, 100);
+      ellipse(b, 250, 100, 100);
+      ellipse(250, b, 100, 100);
+      //small squares
+      fill(210);
+      ellipse(a + 190, 250, 20, 20);
+      ellipse(250, a + 190, 20, 20);
+      ellipse(b - 190, 250, 20, 20);
+      ellipse(250, b - 190, 20, 20);
+    }
+</code></pre>
+<h3 id="an-ambiguous-illusion">An ambiguous illusion</h3><p>Ambiguous illusions characterizes by offering more than one interpretation of the image. In the next image, you could feel the image is straight or upside down, depending if you watch the purple shapes from an up or down perspective.</p><div id="sketch-holder-5">
+        <!-- Our sketch will go here! -->
+</div>
+<script>
+		var sketch5 = function ( p ) {
+            p.setup = function() {
+              var canvas = p.createCanvas(600, 600);
+
+              p.noStroke();
+
+              p.fill(242, 142, 52);
+              p.quad(90, 185, 160, 145, 160, 305, 90, 345);
+
+              p.fill(70, 62, 164);
+              p.quad(160, 145, 230, 185, 230, 345, 160, 305);
+
+              p.fill(156, 14, 74);
+              p.quad(300, 65, 370, 105, 230, 185, 160, 145);
+
+              p.fill(242, 142, 52);
+              p.quad(370, 105, 370, 185, 230, 265, 230, 185);
+
+              p.fill(156, 14, 74);
+              p.quad(370, 185, 505, 265, 435, 305, 300, 225);
+
+              p.fill(70, 62, 164);
+              p.quad(505, 185, 505, 265, 370, 185, 370, 105);
+
+              p.fill(242, 142, 52);
+              p.quad(505, 415, 435, 460, 435, 305, 505, 265);
+
+              p.fill(70, 62, 164);
+              p.quad(435, 460, 370, 425, 370, 267, 435, 305);
+
+              p.fill(156, 14, 74);
+              p.quad(300, 540, 230, 505, 370, 425, 435, 460);
+
+              p.fill(70, 62, 164);
+              p.quad(230, 425, 230, 505, 90, 425, 90, 345);
+
+              p.fill(156, 14, 74);
+              p.quad(160, 305, 300, 385, 230, 425, 90, 345);
+
+              p.fill(242, 142, 52);
+              p.quad(370, 345, 370, 425, 230, 505, 230, 425);
+
+            }
+        }
+        var myp5_5 = new p5(sketch5, 'sketch-holder-5');
+</script><p>Source code in JavaScript</p><pre><code class="language-javascript">   function setup() {
+      var canvas = createCanvas(600, 600);
+      canvas.parent('sketch-holder');
+
+      noStroke();
+
+      fill(242, 142, 52);
+      quad(90, 185, 160, 145, 160, 305, 90, 345);
+
+      fill(70, 62, 164);
+      quad(160, 145, 230, 185, 230, 345, 160, 305);
+
+      fill(156, 14, 74);
+      quad(300, 65, 370, 105, 230, 185, 160, 145);
+
+      fill(242, 142, 52);
+      quad(370, 105, 370, 185, 230, 265, 230, 185);
+
+      fill(156, 14, 74);
+      quad(370, 185, 505, 265, 435, 305, 300, 225);
+
+      fill(70, 62, 164);
+      quad(505, 185, 505, 265, 370, 185, 370, 105);
+
+      fill(242, 142, 52);
+      quad(505, 415, 435, 460, 435, 305, 505, 265);
+
+      fill(70, 62, 164);
+      quad(435, 460, 370, 425, 370, 267, 435, 305);
+
+      fill(156, 14, 74);
+      quad(300, 540, 230, 505, 370, 425, 435, 460);
+
+      fill(70, 62, 164);
+      quad(230, 425, 230, 505, 90, 425, 90, 345);
+
+      fill(156, 14, 74);
+      quad(160, 305, 300, 385, 230, 425, 90, 345);
+
+      fill(242, 142, 52);
+      quad(370, 345, 370, 425, 230, 505, 230, 425);
+
+    }
+</code></pre>
+<h3 id="m-ller-lyer-illusion">Müller-Lyer illusion</h3><p>To finish this post, we will recreate a very known illusion, known as the Müller-Lyer illusion. In this one, two lines are presented but one of the lines seems larger than the other because of its endings. Among the possible explanations for this effect there is the <a href="https://en.wikipedia.org/wiki/M%C3%BCller-Lyer_illusion#Perspective_explanation">Perspective Explanation</a></p><p>You can click the image to reveal the image.</p><div id="sketch-holder-6">
+        <!-- Our sketch will go here! -->
+</div>
+<script>
+		var sketch6 = function ( p ) {
+            p.setup = function() {
+              p.createCanvas(600, 350);
+            }
+
+            p.draw = function () {
+              p.background(255);
+              p.strokeWeight(3);
+              if (!p.mouseIsPressed) {
+                // Draw arrow lines
+                p.line(100, 100, 150, 150);
+                p.line(100, 100, 150, 45);
+                p.line(500, 100, 450, 45);
+                p.line(500, 100, 450, 150);
+                p.line(100, 250, 45, 195);
+                p.line(100, 250, 45, 300);
+                p.line(500, 250, 545, 205);
+                p.line(500, 250, 545, 295);
+              }
+
+              // Draw base lines
+              p.line(100, 100, 500, 100);
+              p.line(100, 250, 500, 250);
+            }
+        }
+        var myp5_6 = new p5(sketch6, 'sketch-holder-6');
+</script><p>Source code in JavaScript</p><pre><code class="language-javascript">setup = function() {
+      createCanvas(600, 350);
+    }
+
+    draw = function () {
+      background(255);
+      strokeWeight(3);
+      if (!mouseIsPressed) {
+        // Draw arrow lines
+        line(100, 100, 150, 150);
+        line(100, 100, 150, 45);
+        line(500, 100, 450, 45);
+        line(500, 100, 450, 150);
+        line(100, 250, 45, 195);
+        line(100, 250, 45, 300);
+        line(500, 250, 545, 205);
+        line(500, 250, 545, 295);
+      }
+
+      // Draw base lines
+      line(100, 100, 500, 100);
+      line(100, 250, 500, 250);
+    }
+</code></pre>
+<p>With this last illusion we reach the end of this post. If you want to keep exploring P5.js you will find the <a href="https://p5js.org/reference/">official documentation</a> very worth reading.</p>]]></content:encoded></item><item><title><![CDATA[How to create your own Medium like blog on GitHub Pages using Ghost for free]]></title><description><![CDATA[I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.]]></description><link>https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/</link><guid isPermaLink="false">5b82e802b0c335085b040f8f</guid><category><![CDATA[Github]]></category><category><![CDATA[Ghost]]></category><category><![CDATA[English]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Sun, 26 Aug 2018 18:25:43 GMT</pubDate><media:content url="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c" medium="image"/><content:encoded><![CDATA[<img src="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1f6c0068bd6e5718cad5a7df353e3c6c" alt="How to create your own Medium like blog on GitHub Pages using Ghost for free"><p>Working as a web developer but also as an UX designer for more than 10 years, I felt for running a blog that could focus exclusively on Code. I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.</p><h2 id="how-to-setup-a-github-pages-website-using-ghost-as-content-editing-platform">How to setup a GitHub pages website using Ghost as content editing platform?</h2><p>From all the alternatives to do it, i decided to have a local instance of Ghost and publishing of the static files to GitHub using Buster. Even when Buster seemed quite outdated to the time I made this installation, I found this excellent step by step tutorial which I changed just a bit to use Ghost-CLI.</p><h3 id="1-install-node-js-on-your-machine">1. Install Node.js on your machine</h3><p>If you haven't installed yet you can do it many ways, from installing the package from the official website to using HomeBrew on your Mac. As I'm a MacOS user, I handle all my packages with brew.</p><p><code>brew install node</code></p>
 <p>If you don't have brew installed, you can follow this quick tutorial.</p><h3 id="2-be-sure-you-have-installed-the-node-version-required-by-ghost-cli">2. Be sure you have installed the Node version required by Ghost-CLI</h3><p>I liked the idea of using Ghost-CLI. However, it only runs on the LTS version of node (currently 8.6). In order to handle multiple versions of node on your machine you can use a package named n. You can use npm to install it</p><p><code>$ npm install n -g</code></p>
 <p>Then you can install the required node version by running:</p>
 <p><code>$ n 8.6</code></p>
