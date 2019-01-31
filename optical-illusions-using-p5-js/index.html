@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Optical illusions using Processing p5.js library from Processing</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css?v=7286d5ec6a">
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="Juan David Saab - FrontEnd &amp; Web Developer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Optical illusions using Processing p5.js library from Processing">
+    <meta property="og:description" content="Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 Hermann von Helmholtz coined the term Unconscious inference to describe those pre-rational mechanism">
+    <meta property="og:url" content="https://juansaab.github.io/optical-illusions-using-p5-js/">
+    <meta property="og:image" content="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg">
+    <meta property="article:published_time" content="2018-08-30T15:33:15.000Z">
+    <meta property="article:modified_time" content="2018-09-20T15:27:20.000Z">
+    <meta property="article:tag" content="Visual Computing">
+    <meta property="article:tag" content="English">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/juansaab">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Optical illusions using Processing p5.js library from Processing">
+    <meta name="twitter:description" content="Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 Hermann von Helmholtz coined the term Unconscious inference to describe those pre-rational mechanism">
+    <meta name="twitter:url" content="https://juansaab.github.io/optical-illusions-using-p5-js/">
+    <meta name="twitter:image" content="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Juan David Saab">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Visual Computing, English">
+    <meta name="twitter:site" content="@juansaab">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="1000">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Juan David Saab - FrontEnd &amp; Web Developer",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://juansaab.github.io/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Juan David Saab",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/1f02b85dadcbeaf373860d3b4de743fe?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://juansaab.github.io/author/juan/",
+        "sameAs": []
+    },
+    "headline": "Optical illusions using Processing p5.js library from Processing",
+    "url": "https://juansaab.github.io/optical-illusions-using-p5-js/",
+    "datePublished": "2018-08-30T15:33:15.000Z",
+    "dateModified": "2018-09-20T15:27:20.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg",
+        "width": 1000,
+        "height": 1000
+    },
+    "keywords": "Visual Computing, English",
+    "description": "Even when visual perception could be approached from the Newton&#x27;s perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 Hermann von Helmholtz coined the term Unconscious inference to describe those pre-rational mechanism",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://juansaab.github.io/"
+    }
+}
+    </script>
+
+    <script src="../public/ghost-sdk.js?v=7286d5ec6a"></script>
+<script>
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "be3111cc300a"
+});
+</script>
+    <meta name="generator" content="Ghost 2.0">
+    <link rel="alternate" type="application/rss+xml" title="Juan David Saab - FrontEnd &amp; Web Developer" href="../rss/index.rss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-okaidia.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.css">
+
+</head>
+<body class="post-template tag-visual-computing tag-english">
+
+    <div class="site-wrapper">
+
+        
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+                <a class="site-nav-logo" href="../index.html">Juan David Saab - FrontEnd &amp; Web Developer</a>
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="../index.html">Home</a></li>
+</ul>
+
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+                <a class="social-link social-link-fb" href="https://www.facebook.com/juansaab" target="_blank" rel="noopener"><svg xmlns="//www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
+</a>
+                <a class="social-link social-link-tw" href="https://twitter.com/juansaab" target="_blank" rel="noopener"><svg xmlns="//www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
+</a>
+        </div>
+            <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://juansaab.github.io/rss/" target="_blank" rel="noopener"><svg xmlns="//www.w3.org/2000/svg" viewbox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg>
+</a>
+    </div>
+</nav>
+    </div>
+</header>
+
+
+<main id="site-main" class="site-main outer">
+    <div class="inner">
+
+        <article class="post-full post tag-visual-computing tag-english ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime="2018-08-30">30 August 2018</time>
+                        <span class="date-divider">/</span> <a href="../tag/visual-computing/index.html">Visual Computing</a>
+                </section>
+                <h1 class="post-full-title">Optical illusions using Processing p5.js library from Processing</h1>
+            </header>
+
+            <figure class="post-full-image" style="background-image: url(../content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg)">
+            </figure>
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p>Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe those pre-rational mechanism that could affect human visual perception. Here are some of those precepts or mechanisms:</p><ul><li>light comes from above</li><li>objects are normally not view from below</li><li>faces are seen (and recognized) upright</li><li>closer objects can block the view of more distant objects</li></ul><h2 id="using-processing-to-recreate-optical-illusions-on-your-navigator">Using processing to recreate optical illusions on your navigator</h2><p>Using a <a href="https://p5js.org/">p5.js</a> a JavasScript library created by the Processing organization to allow coding an experimentation with visual elements. Using p5.js we can embed our code directly on a website with a little effort.</p><p>Here comes six very known illusions, their explanation and implementation using nothing but JavaScript and p5.js</p><h3 id="hering-illusion">Hering illusion</h3><p>A geometrical optical illusion discovered by <a href="https://en.wikipedia.org/wiki/Ewald_Hering">Ewald Hering</a> in which two parallel rects seems curved in the presence of a radial background.</p><p>Click on the image to reveal the illusion.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
+    <script>
+		var sketch1 = function ( p ) {
+            p.setup = function () {
+                var canvas = p.createCanvas(500, 500);
+            }
+            p.draw = function () {
+                p.background(255);
+                p.translate(250, 250);
+                if (!p.mouseIsPressed) {
+                    p.stroke(0, 0, 100);
+                    i = 0
+                    for (i; i < 490; i = i + 10) {
+                        p.rotate(5);
+                        p.line(0, 0, 400, 400);
+                    }
+                    p.rotate(-245)
+                }
+                p.strokeWeight(3);
+                p.stroke(200, 0, 0);
+                p.translate(-250, -250);
+                p.line(200, 0, 200, 500);
+                p.line(300, 0, 300, 500);
+        	}
+        }
+        var myp5_1 = new p5(sketch1, 'sketch-holder-1');
+    </script>
+
+
+
+    <div id="sketch-holder-1">
+        <!-- Our sketch will go here! -->
+    </div>
+
+
+</div></section></article></div></main></div></body></html>

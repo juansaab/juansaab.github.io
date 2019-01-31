@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Juan David Saab - Juan David Saab - FrontEnd & Web Developer]]></title><description><![CDATA[Thoughts, code and ideas.]]></description><link>https://juansaab.github.io/</link><image><url>https://juansaab.github.io/favicon.png</url><title>Juan David Saab - Juan David Saab - FrontEnd &amp; Web Developer</title><link>https://juansaab.github.io/</link></image><generator>Ghost 2.0</generator><lastBuildDate>Mon, 27 Aug 2018 06:20:23 GMT</lastBuildDate><atom:link href="https://juansaab.github.io/author/juan/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[How to create your own Medium like blog on GitHub Pages using Ghost for free]]></title><description><![CDATA[I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.]]></description><link>https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/</link><guid isPermaLink="false">5b82e802b0c335085b040f8f</guid><category><![CDATA[Github]]></category><category><![CDATA[Ghost]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Sun, 26 Aug 2018 18:25:43 GMT</pubDate><media:content url="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c" medium="image"/><content:encoded><![CDATA[<img src="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1f6c0068bd6e5718cad5a7df353e3c6c" alt="How to create your own Medium like blog on GitHub Pages using Ghost for free"><p>Working as a web developer but also as an UX designer for more than 10 years, I felt for running a blog that could focus exclusively on Code. I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.</p><h2 id="how-to-setup-a-github-pages-website-using-ghost-as-content-editing-platform">How to setup a GitHub pages website using Ghost as content editing platform?</h2><p>From all the alternatives to do it, i decided to have a local instance of Ghost and publishing of the static files to GitHub using Buster. Even when Buster seemed quite outdated to the time I made this installation, I found this excellent step by step tutorial which I changed just a bit to use Ghost-CLI.</p><h3 id="1-install-node-js-on-your-machine">1. Install Node.js on your machine</h3><p>If you haven't installed yet you can do it many ways, from installing the package from the official website to using HomeBrew on your Mac. As I'm a MacOS user, I handle all my packages with brew.</p><p><code>brew install node</code></p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="//purl.org/dc/elements/1.1/" xmlns:content="//purl.org/rss/1.0/modules/content/" xmlns:atom="//www.w3.org/2005/Atom" version="2.0" xmlns:media="//search.yahoo.com/mrss/"><channel><title><![CDATA[Juan David Saab - Juan David Saab - FrontEnd & Web Developer]]></title><description><![CDATA[Thoughts, code and ideas.]]></description><link>https://juansaab.github.io/</link><image><url>https://juansaab.github.io/favicon.png</url><title>Juan David Saab - Juan David Saab - FrontEnd &amp; Web Developer</title><link>https://juansaab.github.io/</link></image><generator>Ghost 2.0</generator><lastBuildDate>Thu, 31 Jan 2019 13:17:00 GMT</lastBuildDate><atom:link href="https://juansaab.github.io/author/juan/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Optical illusions using Processing p5.js library from Processing]]></title><description><![CDATA[<p>Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe those pre-rational mechanism</p>]]></description><link>https://juansaab.github.io/optical-illusions-using-p5-js/</link><guid isPermaLink="false">5b8809e380e73b311d3d58ec</guid><category><![CDATA[Visual Computing]]></category><category><![CDATA[English]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Thu, 30 Aug 2018 15:33:15 GMT</pubDate><media:content url="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg" medium="image"/><content:encoded><![CDATA[<img src="https://juansaab.github.io/content/images/2018/08/Eye-Benders-Shutterstock1--1-.jpg" alt="Optical illusions using Processing p5.js library from Processing"><p>Even when visual perception could be approached from the Newton's perspective, considering the physical light rays being reflected and rejected by surfaces and perceived by the human eyes as a form of energy (emission theory), in 1867 <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann von Helmholtz</a> coined the term <a href="https://en.wikipedia.org/wiki/Unconscious_inference">Unconscious inference</a> to describe those pre-rational mechanism that could affect human visual perception. Here are some of those precepts or mechanisms:</p><ul><li>light comes from above</li><li>objects are normally not view from below</li><li>faces are seen (and recognized) upright</li><li>closer objects can block the view of more distant objects</li></ul><h2 id="using-processing-to-recreate-optical-illusions-on-your-navigator">Using processing to recreate optical illusions on your navigator</h2><p>Using a <a href="https://p5js.org/">p5.js</a> a JavasScript library created by the Processing organization to allow coding an experimentation with visual elements. Using p5.js we can embed our code directly on a website with a little effort.</p><p>Here comes six very known illusions, their explanation and implementation using nothing but JavaScript and p5.js</p><h3 id="hering-illusion">Hering illusion</h3><p>A geometrical optical illusion discovered by <a href="https://en.wikipedia.org/wiki/Ewald_Hering">Ewald Hering</a> in which two parallel rects seems curved in the presence of a radial background.</p><p>Click on the image to reveal the illusion.</p><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
+    <script>
+		var sketch1 = function ( p ) {
+            p.setup = function () {
+                var canvas = p.createCanvas(500, 500);
+            }
+            p.draw = function () {
+                p.background(255);
+                p.translate(250, 250);
+                if (!p.mouseIsPressed) {
+                    p.stroke(0, 0, 100);
+                    i = 0
+                    for (i; i < 490; i = i + 10) {
+                        p.rotate(5);
+                        p.line(0, 0, 400, 400);
+                    }
+                    p.rotate(-245)
+                }
+                p.strokeWeight(3);
+                p.stroke(200, 0, 0);
+                p.translate(-250, -250);
+                p.line(200, 0, 200, 500);
+                p.line(300, 0, 300, 500);
+        	}
+        }
+        var myp5_1 = new p5(sketch1, 'sketch-holder-1');
+    </script>
+
+
+<body>
+    <div id="sketch-holder-1">
+        <!-- Our sketch will go here! -->
+    </div>
+</body>
+
+<p></p><p>Source code in JavaScript using p5.js</p><pre><code class="language-javascript">  setup = function () {
+    var canvas = createCanvas(500, 500);
+    canvas.parent('sketch-holder');
+  }
+  draw = function () {
+    background(255);
+    translate(250, 250);
+    if (!mouseIsPressed) {
+      stroke(0, 0, 100);
+      i = 0
+      for (i; i &lt; 490; i = i + 10) {
+        rotate(5);
+        line(0, 0, 400, 400);
+      }
+      rotate(-245)
+    }
+    strokeWeight(3);
+    stroke(200, 0, 0);
+    translate(-250, -250);
+    line(200, 0, 200, 500);
+    line(300, 0, 300, 500);
+  }
+</code></pre>
+<h3 id="ebbinghaus-illusion">Ebbinghaus illusion</h3><p>Another geometric illusion, also known as Titchener circles, </p><div id="sketch-holder-2">
+        <!-- Our sketch will go here! -->
+</div>
+
+<script>
+		var sketch2 = function ( p ) {
+            p.setup = function () {
+                var canvas = p.createCanvas(500, 500);
+            }
+            p.draw = function () {
+                p.background(255);
+                p.scale(0.65)
+                p.noStroke();
+                p.fill(247, 119, 38);
+                p.ellipse(270, 400, 70, 70);
+                p.ellipse(670, 400, 70, 70);
+                if (!p.mouseIsPressed) {
+                  p.fill(99, 120, 147);
+
+                  //left rose
+                  p.ellipse(190, 270, 150, 150);
+                  p.ellipse(350, 270, 150, 150);
+                  p.ellipse(190, 530, 150, 150);
+                  p.ellipse(350, 530, 150, 150);
+                  p.ellipse(100, 400, 150, 150);
+                  p.ellipse(440, 400, 150, 150);
+
+                  //right rose
+                  p.ellipse(605, 400, 40, 40);
+                  p.ellipse(735, 400, 40, 40);
+                  p.ellipse(670, 465, 40, 40);
+                  p.ellipse(670, 335, 40, 40);
+                  p.ellipse(620, 450, 40, 40);
+                  p.ellipse(720, 450, 40, 40);
+                  p.ellipse(620, 350, 40, 40);
+                  p.ellipse(720, 350, 40, 40);
+                }
+        	}
+        }
+        var myp5_2 = new p5(sketch2, 'sketch-holder-2');
+    </script>]]></content:encoded></item><item><title><![CDATA[How to create your own Medium like blog on GitHub Pages using Ghost for free]]></title><description><![CDATA[I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.]]></description><link>https://juansaab.github.io/how-to-create-your-own-medium-like-blog-on-github-pages-using-ghost/</link><guid isPermaLink="false">5b82e802b0c335085b040f8f</guid><category><![CDATA[Github]]></category><category><![CDATA[Ghost]]></category><category><![CDATA[English]]></category><dc:creator><![CDATA[Juan David Saab]]></dc:creator><pubDate>Sun, 26 Aug 2018 18:25:43 GMT</pubDate><media:content url="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjExNzczfQ&amp;s=1f6c0068bd6e5718cad5a7df353e3c6c" medium="image"/><content:encoded><![CDATA[<img src="https://images.unsplash.com/photo-1511548774318-563182fe8d03?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=1f6c0068bd6e5718cad5a7df353e3c6c" alt="How to create your own Medium like blog on GitHub Pages using Ghost for free"><p>Working as a web developer but also as an UX designer for more than 10 years, I felt for running a blog that could focus exclusively on Code. I'm an assiduous reader of Medium and always loved its simple and content focused design. That's why I decided to start this blog, using GitHub pages and a local installation of Ghost.</p><h2 id="how-to-setup-a-github-pages-website-using-ghost-as-content-editing-platform">How to setup a GitHub pages website using Ghost as content editing platform?</h2><p>From all the alternatives to do it, i decided to have a local instance of Ghost and publishing of the static files to GitHub using Buster. Even when Buster seemed quite outdated to the time I made this installation, I found this excellent step by step tutorial which I changed just a bit to use Ghost-CLI.</p><h3 id="1-install-node-js-on-your-machine">1. Install Node.js on your machine</h3><p>If you haven't installed yet you can do it many ways, from installing the package from the official website to using HomeBrew on your Mac. As I'm a MacOS user, I handle all my packages with brew.</p><p><code>brew install node</code></p>
 <p>If you don't have brew installed, you can follow this quick tutorial.</p><h3 id="2-be-sure-you-have-installed-the-node-version-required-by-ghost-cli">2. Be sure you have installed the Node version required by Ghost-CLI</h3><p>I liked the idea of using Ghost-CLI. However, it only runs on the LTS version of node (currently 8.6). In order to handle multiple versions of node on your machine you can use a package named n. You can use npm to install it</p><p><code>$ npm install n -g</code></p>
 <p>Then you can install the required node version by running:</p>
 <p><code>$ n 8.6</code></p>
